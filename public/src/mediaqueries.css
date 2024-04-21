@@ -95,4 +95,8 @@
     .about-text {
         text-align: justify;
     }
+
+    footer {
+        height: 10vh;
+    }
 }
