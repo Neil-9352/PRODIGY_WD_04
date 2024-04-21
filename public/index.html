@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/mediaqueries.css">
+    <script defer src="./src/script.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&display=swap" rel="stylesheet">
+
+    <title>Neelim S Borah | Front End Developer</title>
+</head>
+
+<body class="light">
+    <header>
+        <nav id="desktop-navbar">
+            <div class="container">
+                <div class="heading">Neelim's Portfolio</div>
+                <div class="right">
+                    <ul class="nav-items">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                        <li><img id="theme-switch-desktop" src="media/night-mode.png" alt="theme"></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <nav id="hamburger-nav">
+            <div class="heading">Neelim's Portfolio</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="menu-links">
+                    <li class="toggle"><img id="theme-switch-mobile" src="media/night-mode.png" alt="theme"></li>
+                    <li class="toggle"><a href="#home">Home</a></li>
+                    <li class="toggle"><a href="#about">About</a></li>
+                    <li class="toggle"><a href="#skills">Skills</a></li>
+                    <li class="toggle"><a href="#projects">Projects</a></li>
+                    <li class="toggle"><a href="#contact">Contact</a></li>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="profile-pic">
+                <img src="media/profile-new.jpg" alt="profile-pic">
+            </div>
+            
+            <div class="profile-text">
+                <p class="profile-p">Hello I'm</p>
+                <h1 class="title">Neelim S Borah</h1>
+                <div id="socials-container">
+                    <img src="media/github.png" alt="github" class="icon github">
+                    <img src="media/linkedin.png" alt="linkedin" class="icon linkedin">
+                </div>
+            </div>
+
+        </section>
+
+        <section id="about">
+            <h1 class="title">About Me</h1>
+            <div class="about-main-container">
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="media/experience.png" alt="experience" class="icon">
+                            <h3>Experience</h3>
+                            <p>Web Development</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="media/education.png" alt="experience" class="icon">
+                            <h3>Education</h3>
+                            <p>B.Tech in CSE</p>
+                        </div>
+                    </div>
+
+                    <div class="about-text">
+                        As an aspiring front-end developer, I'm currently at a beginner level with HTML, CSS, and JavaScript. While I'm familiar with the basics, I've delved into these languages enough to consider myself at an intermediate level. I'm comfortable creating structured and visually appealing web pages using HTML and CSS, and I've begun implementing interactive features and functionality with JavaScript. As I continue to learn and grow in my skills, I'm eager to explore more advanced techniques and frameworks to further expand my abilities in web development.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h1 class="title">Skills</h1>
+            <div class="skills-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="skills-subtitle">Web Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="media/checkmark.png" alt="tick mark" class="icon">
+
+                                <div>
+                                    <h3>HTML</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            
+                            <article>
+                                <img src="media/checkmark.png" alt="tick mark" class="icon">
+
+                                <div>
+                                    <h3>CSS</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            
+                            <article>
+                                <img src="media/checkmark.png" alt="tick mark" class="icon">
+
+                                <div>
+                                    <h3>JavaScript</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
+                            
+                            <article>
+                                <img src="media/checkmark.png" alt="tick mark" class="icon">
+
+                                <div>
+                                    <h3>Git and Github</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h1 class="title">Projects</h1>
+            <div class="skills-details-container">
+                <div class="about-containers">
+                    <div class="details-container color-container">
+                        <h2 class="skills-subtitle project-title">Responsive Landing Page</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn project-1-github">
+                                Github
+                            </button>
+                            <button class="btn btn-color-2 project-btn live-demo-1">
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+    
+                    <div class="details-container color-container">
+                        <h2 class="skills-subtitle project-title">Tic-Tac-Toe Web App</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn project-2-github">
+                                Github
+                            </button>
+                            <button class="btn btn-color-2 project-btn live-demo-2">
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+    
+                    <div class="details-container color-container">
+                        <h2 class="skills-subtitle project-title">Stopwatch Web App</h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn project-3-github">
+                                Github
+                            </button>
+                            <button class="btn btn-color-2 project-btn live-demo-3">
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-info-upper-container">
+              <div class="contact-info-container">
+                <img
+                  src="media/email.png"
+                  alt="Email icon"
+                  class="icon contact-icon email-icon"
+                />
+                <p><a href="mailto:borahneelims@gmail.com">borahneelims@gmail.com</a></p>
+              </div>
+              <div class="contact-info-container">
+                <img
+                  src="media/linkedin.png"
+                  alt="LinkedIn icon"
+                  class="icon contact-icon"
+                />
+                <p><a href="https://www.linkedin.com/in/neelim-s-borah-40481126a/">LinkedIn</a></p>
+              </div>
+              <div class="contact-info-container">
+                <img
+                  src="media/github.png"
+                  alt="Github icon"
+                  class="icon contact-icon"
+                />
+                <p><a href="https://github.com/Neil-9352">Github</a></p>
+              </div>
+            </div>
+          </section>
+    </main>
+
+    <footer>
+        <p>Copyright &#169; 2024 Neelim S Borah. &nbsp; All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
